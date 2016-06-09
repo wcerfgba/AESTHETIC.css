@@ -1,0 +1,15 @@
+{
+  "name": "aesthetic.css",
+  "version": "1.0.0",
+  "description": "An ﻿ＡＥＳＴＨＥＴＩＣ CSS library for your websites.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Preston",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
+}

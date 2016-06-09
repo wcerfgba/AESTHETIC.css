@@ -1,0 +1,584 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.section {
+  margin: 1rem; }
+
+.section h1 {
+  width: 100%;
+  text-align: center; }
+
+.row {
+  width: 100%;
+  font-size: 0; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.row .column-third {
+  display: inline-block;
+  width: 33.333%;
+  vertical-align: middle; }
+
+.clear {
+  clear: both; }
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
+.responsive {
+  font-size: 1vw; }
+
+.center--horiz {
+  margin: 0 auto; }
+
+.fibonacci-1 {
+  position: relative;
+  width: 1em;
+  height: 1em; }
+
+.fibonacci-1-1 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2 {
+  position: relative;
+  width: 2em;
+  height: 1em; }
+
+.fibonacci-1-2 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-2 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 0em;
+  left: 1em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3 {
+  position: relative;
+  width: 2em;
+  height: 3em; }
+
+.fibonacci-1-3 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-3 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 0em;
+  left: 1em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3-3 {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 1em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-4 {
+  position: relative;
+  width: 5em;
+  height: 3em; }
+
+.fibonacci-1-4 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 0em;
+  left: 3em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-4 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 0em;
+  left: 4em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3-4 {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 1em;
+  left: 3em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-4-4 {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-5 {
+  position: relative;
+  width: 5em;
+  height: 8em; }
+
+.fibonacci-1-5 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 5em;
+  left: 3em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-5 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 5em;
+  left: 4em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3-5 {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 6em;
+  left: 3em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-4-5 {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  top: 5em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-5-5 {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-6 {
+  position: relative;
+  width: 13em;
+  height: 8em; }
+
+.fibonacci-1-6 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 5em;
+  left: 3em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-6 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 5em;
+  left: 4em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3-6 {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 6em;
+  left: 3em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-4-6 {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  top: 5em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-5-6 {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-6-6 {
+  position: absolute;
+  width: 8em;
+  height: 8em;
+  top: 0em;
+  left: 5em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-7 {
+  position: relative;
+  width: 13em;
+  height: 21em; }
+
+.fibonacci-1-7 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 5em;
+  left: 3em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-7 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 5em;
+  left: 4em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3-7 {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 6em;
+  left: 3em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-4-7 {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  top: 5em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-5-7 {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-6-7 {
+  position: absolute;
+  width: 8em;
+  height: 8em;
+  top: 0em;
+  left: 5em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-7-7 {
+  position: absolute;
+  width: 13em;
+  height: 13em;
+  top: 8em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-8 {
+  position: relative;
+  width: 34em;
+  height: 21em; }
+
+.fibonacci-1-8 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 5em;
+  left: 24em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-8 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 5em;
+  left: 25em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3-8 {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 6em;
+  left: 24em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-4-8 {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  top: 5em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-5-8 {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 0em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-6-8 {
+  position: absolute;
+  width: 8em;
+  height: 8em;
+  top: 0em;
+  left: 26em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-7-8 {
+  position: absolute;
+  width: 13em;
+  height: 13em;
+  top: 8em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-8-8 {
+  position: absolute;
+  width: 21em;
+  height: 21em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-9 {
+  position: relative;
+  width: 34em;
+  height: 55em; }
+
+.fibonacci-1-9 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 39em;
+  left: 24em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-9 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 39em;
+  left: 25em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3-9 {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 40em;
+  left: 24em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-4-9 {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  top: 39em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-5-9 {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 34em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-6-9 {
+  position: absolute;
+  width: 8em;
+  height: 8em;
+  top: 34em;
+  left: 26em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-7-9 {
+  position: absolute;
+  width: 13em;
+  height: 13em;
+  top: 42em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-8-9 {
+  position: absolute;
+  width: 21em;
+  height: 21em;
+  top: 34em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-9-9 {
+  position: absolute;
+  width: 34em;
+  height: 34em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-10 {
+  position: relative;
+  width: 89em;
+  height: 55em; }
+
+.fibonacci-1-10 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 39em;
+  left: 24em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-2-10 {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 39em;
+  left: 25em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-3-10 {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 40em;
+  left: 24em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-4-10 {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  top: 39em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-5-10 {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 34em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-6-10 {
+  position: absolute;
+  width: 8em;
+  height: 8em;
+  top: 34em;
+  left: 26em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-7-10 {
+  position: absolute;
+  width: 13em;
+  height: 13em;
+  top: 42em;
+  left: 21em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-8-10 {
+  position: absolute;
+  width: 21em;
+  height: 21em;
+  top: 34em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-9-10 {
+  position: absolute;
+  width: 34em;
+  height: 34em;
+  top: 0em;
+  left: 0em;
+  border: 1px solid #000;
+  overflow: hidden; }
+
+.fibonacci-10-10 {
+  position: absolute;
+  width: 55em;
+  height: 55em;
+  top: 0em;
+  left: 34em;
+  border: 1px solid #000;
+  overflow: hidden; }
