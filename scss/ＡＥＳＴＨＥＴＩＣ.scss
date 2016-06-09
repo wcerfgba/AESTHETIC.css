@@ -41,15 +41,21 @@ img {
     object-fit: contain;
 }
 
-.responsive {
-    font-size: 1vw;
+/* responsive-* classes set the font size in terms of viewport width units so 
+ * you can easily size elements in a responsive way. Don't forget to override 
+ * font-size on your inner elements so your text is actually readable. */
+$responsives: 1, 10, 16;
+@each $n in $responsives {
+    .responsive-#{$n} {
+        font-size: #{$n}vw;
+    }
 }
 
 .center--horiz {
     margin: 0 auto;
 }
 
-$numFibLayouts: 10;
+$numFibLayouts: 9;
 @for $n from 1 through $numFibLayouts {
     $size: ();
     $top: ();

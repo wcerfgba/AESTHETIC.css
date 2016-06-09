@@ -32,8 +32,17 @@ img {
   height: 100%;
   object-fit: contain; }
 
-.responsive {
+/* responsive-* classes set the font size in terms of viewport width units so 
+ * you can easily size elements in a responsive way. Don't forget to override 
+ * font-size on your inner elements so your text is actually readable. */
+.responsive-1 {
   font-size: 1vw; }
+
+.responsive-10 {
+  font-size: 10vw; }
+
+.responsive-16 {
+  font-size: 16vw; }
 
 .center--horiz {
   margin: 0 auto; }
@@ -485,100 +494,5 @@ img {
   height: 61.81818%;
   top: 0%;
   left: 0%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-10 {
-  position: relative;
-  width: 89em;
-  height: 55em; }
-
-.fibonacci-1-10 {
-  position: absolute;
-  width: 1.1236%;
-  height: 1.81818%;
-  top: 70.90909%;
-  left: 26.96629%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-2-10 {
-  position: absolute;
-  width: 1.1236%;
-  height: 1.81818%;
-  top: 70.90909%;
-  left: 28.08989%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-3-10 {
-  position: absolute;
-  width: 2.24719%;
-  height: 3.63636%;
-  top: 72.72727%;
-  left: 26.96629%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-4-10 {
-  position: absolute;
-  width: 3.37079%;
-  height: 5.45455%;
-  top: 70.90909%;
-  left: 23.59551%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-5-10 {
-  position: absolute;
-  width: 5.61798%;
-  height: 9.09091%;
-  top: 61.81818%;
-  left: 23.59551%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-6-10 {
-  position: absolute;
-  width: 8.98876%;
-  height: 14.54545%;
-  top: 61.81818%;
-  left: 29.21348%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-7-10 {
-  position: absolute;
-  width: 14.60674%;
-  height: 23.63636%;
-  top: 76.36364%;
-  left: 23.59551%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-8-10 {
-  position: absolute;
-  width: 23.59551%;
-  height: 38.18182%;
-  top: 61.81818%;
-  left: 0%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-9-10 {
-  position: absolute;
-  width: 38.20225%;
-  height: 61.81818%;
-  top: 0%;
-  left: 0%;
-  border: 1px solid #000;
-  overflow: hidden; }
-
-.fibonacci-10-10 {
-  position: absolute;
-  width: 61.79775%;
-  height: 100%;
-  top: 0%;
-  left: 38.20225%;
   border: 1px solid #000;
   overflow: hidden; }
