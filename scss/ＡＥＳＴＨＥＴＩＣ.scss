@@ -98,10 +98,10 @@ $numFibLayouts: 10;
     @for $i from 1 through $n {
         .fibonacci-#{$i}-#{$n} {
             position: absolute;
-            width: #{nth($size, $i)}em;
-            height: #{nth($size, $i)}em;
-            top: #{nth($top, $i)}em;
-            left: #{nth($left, $i)}em;
+            width: percentage(nth($size, $i) / $width);
+            height: percentage(nth($size, $i) / $height);
+            top: percentage(nth($top, $i) / $height);
+            left: percentage(nth($left, $i) / $width);
             border: 1px solid #000;
             overflow: hidden;
         }
