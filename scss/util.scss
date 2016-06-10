@@ -52,6 +52,7 @@ $responsives: 1, 10, 16;
 @each $n in $responsives {
     .responsive-#{$n} {
         font-size: #{$n}vw;
+        max-width: 100%;
     }
 }
 
