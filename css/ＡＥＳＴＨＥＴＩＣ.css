@@ -12,9 +12,9 @@ img {
   object-fit: contain;
   padding: 1px; }
 
-/* 640px maximum width page container */
+/* 800px maximum width page container */
 .page {
-  max-width: 640px;
+  max-width: 800px;
   margin: 0 auto; }
 
 /* Page content sections */
@@ -41,16 +41,13 @@ img {
  * you can easily size elements in a responsive way. Don't forget to override 
  * font-size on your inner elements so your text is actually readable. */
 .responsive-1 {
-  font-size: 1vw;
-  max-width: 640px; }
+  font-size: 1vw; }
 
 .responsive-10 {
-  font-size: 10vw;
-  max-width: 640px; }
+  font-size: 10vw; }
 
 .responsive-16 {
-  font-size: 16vw;
-  max-width: 640px; }
+  font-size: 16vw; }
 
 .center-horiz {
   margin-left: auto;
