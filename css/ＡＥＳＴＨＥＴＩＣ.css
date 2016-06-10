@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* ＡＥＳＴＨＥＴＩＣ.css <https://github.com/wcerfgba/AESTHETIC.css> */
+/* ＡＥＳＴＨＥＴＩＣ.css <https://github.com/wcerfgba/ＡＥＳＴＨＥＴＩＣ.css> */
 /* Resets */
 * {
   box-sizing: border-box;
@@ -43,11 +43,11 @@ img {
 .responsive-1 {
   font-size: 1vw; }
 
-.responsive-10 {
-  font-size: 10vw; }
+.responsive-8 {
+  font-size: 8vw; }
 
-.responsive-16 {
-  font-size: 16vw; }
+.responsive-12 {
+  font-size: 12vw; }
 
 .center-horiz {
   margin-left: auto;

@@ -48,7 +48,7 @@ img {
 /* responsive-* classes set the font size in terms of viewport width units so 
  * you can easily size elements in a responsive way. Don't forget to override 
  * font-size on your inner elements so your text is actually readable. */
-$responsives: 1, 10, 16;
+$responsives: 1, 8, 12;
 @each $n in $responsives {
     .responsive-#{$n} {
         font-size: #{$n}vw;
