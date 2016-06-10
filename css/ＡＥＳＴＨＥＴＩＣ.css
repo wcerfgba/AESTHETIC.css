@@ -13,7 +13,9 @@ img {
 
 /* Page content sections */
 .section {
-  margin: 1rem; }
+  margin: 1em;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.9); }
 
 .section h1 {
   width: 100%;
@@ -22,6 +24,9 @@ img {
 /* Utility classes */
 .clear {
   clear: both; }
+
+.break-after {
+  margin-bottom: 16px; }
 
 /* responsive-* classes set the font size in terms of viewport width units so 
  * you can easily size elements in a responsive way. Don't forget to override 
@@ -36,7 +41,11 @@ img {
   font-size: 16vw; }
 
 .center-horiz {
-  margin: 0 auto; }
+  margin-left: auto;
+  margin-right: auto; }
+
+img[src~="memes/roman-statue.png"] {
+  max-height: 480px; }
 
 /* A row is as wide as its parent and contains multiple columns. Each column is 
  * of a defined width. Each column is an inline-block. Rows and columns can 
@@ -1862,3 +1871,31 @@ img {
   left: 0%;
   border: 1px solid #000;
   overflow: hidden; }
+
+/* Background images are 100x100 PNGs representing a checkerboard tile. Colours 
+ * from <http://www.color-hex.com/color-palette/10221>. */
+.background-pink {
+  background-image: url("../img/pink.png");
+  background-size: 50px; }
+
+.background-blue {
+  background-image: url("../img/blue.png");
+  background-size: 50px; }
+
+.background-orange {
+  background-image: url("../img/orange.png");
+  background-size: 50px; }
+
+.background-yellow {
+  background-image: url("../img/yellow.png");
+  background-size: 50px; }
+
+.background-light-yellow {
+  background-image: url("../img/light-yellow.png");
+  background-size: 50px; }
+
+body {
+  font-family: sans-serif; }
+
+p {
+  padding: 0.5em 0; }

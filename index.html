@@ -5,15 +5,15 @@
 <link href="css/ＡＥＳＴＨＥＴＩＣ.css" rel="stylesheet" type="text/css">
 <title>ＡＥＳＴＨＥＴＩＣ.css</title>
 </head>
-<body>
+<body class="background-pink">
 <div class="section" id="splash">
   <h1 id="title">ＡＥＳＴＨＥＴＩＣ.css</h1>
-  <p>tagline</p>
+  <p style="text-align: center;">tagline</p>
 </div>
 <div class="section" id="grids">
-  <h2>Grids</h2>
-  <p>Percentage-defined inline-block grids for rule of three and rule of five.</p>
-  <div class="row">
+  <h2>column-third / column-fifth</h2>
+  <p>Embeddable percentage-defined inline-block grids for aesthetic composition.</p>
+  <div class="row break-after">
     <div class="column-third">
       <img src="memes/roman-statue.png">
     </div>
@@ -24,7 +24,7 @@
       <img src="memes/roman-statue.png">
     </div>
   </div>
-  <div class="row">
+  <div class="row break-after">
     <div class="column-fifth">
       <img src="memes/roman-statue.png">
     </div>
@@ -41,8 +41,7 @@
       <img src="memes/roman-statue.png">
     </div>
   </div>
-  <p>Grids are embeddable too.</p>
-  <div class="row">
+  <div class="row break-after">
     <div class="column-third">
       <img src="memes/roman-statue.png">
     </div>
@@ -89,8 +88,11 @@
       <img src="memes/roman-statue.png">
     </div>
   </div>
+</div>
+<div class="section" id="fibonacci">
+  <h2>fibonacci</h2>
   <p>Fibonacci grids in ems and percentages with optional responsiveness.</p>
-  <div class="fibonacci-1-3 responsive-16 center-horiz">
+  <div class="fibonacci-1-3 responsive-16 center-horiz break-after">
     <div class="fibonacci-1-1-3">
       <img src="memes/roman-statue.png">
     </div>
@@ -101,7 +103,7 @@
       <img src="memes/roman-statue.png">
     </div>
   </div>
-  <div class="fibonacci-0-4 responsive-10 center-horiz">
+  <div class="fibonacci-0-4 responsive-10 center-horiz break-after">
     <div class="fibonacci-0-1-4">
       <img src="memes/roman-statue.png">
     </div>
@@ -115,7 +117,7 @@
       <img src="memes/roman-statue.png">
     </div>
   </div>
-  <div class="fibonacci-0-8 responsive-1 center-horiz">
+  <div class="fibonacci-0-8 responsive-1 center-horiz break-after">
     <div class="fibonacci-0-1-8">
       <img src="memes/roman-statue.png">
     </div>

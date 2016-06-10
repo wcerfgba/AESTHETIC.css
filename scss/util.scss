@@ -14,7 +14,9 @@ img {
 
 /* Page content sections */
 .section {
-    margin: 1rem;
+    margin: 1em;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .section h1 {
@@ -28,6 +30,10 @@ img {
     clear: both;
 }
 
+.break-after {
+    margin-bottom: 16px;
+}
+
 /* responsive-* classes set the font size in terms of viewport width units so 
  * you can easily size elements in a responsive way. Don't forget to override 
  * font-size on your inner elements so your text is actually readable. */
@@ -39,6 +45,11 @@ $responsives: 1, 10, 16;
 }
 
 .center-horiz {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* Limit maximum size of Helios. */
+img[src~="memes/roman-statue.png"] {
+    max-height: 480px;
+}
