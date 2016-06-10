@@ -41,13 +41,16 @@ img {
  * you can easily size elements in a responsive way. Don't forget to override 
  * font-size on your inner elements so your text is actually readable. */
 .responsive-1 {
-  font-size: 1vw; }
+  font-size: 1vw;
+  max-width: 640px; }
 
-.responsive-8 {
-  font-size: 8vw; }
+.responsive-10 {
+  font-size: 10vw;
+  max-width: 640px; }
 
-.responsive-12 {
-  font-size: 12vw; }
+.responsive-16 {
+  font-size: 16vw;
+  max-width: 640px; }
 
 .center-horiz {
   margin-left: auto;

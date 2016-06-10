@@ -13,9 +13,9 @@ img {
 }
 
 
-/* 640px maximum width page container */
+/* 800px maximum width page container */
 .page {
-    max-width: 640px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@ img {
 /* responsive-* classes set the font size in terms of viewport width units so 
  * you can easily size elements in a responsive way. Don't forget to override 
  * font-size on your inner elements so your text is actually readable. */
-$responsives: 1, 8, 12;
+$responsives: 1, 10, 16;
 @each $n in $responsives {
     .responsive-#{$n} {
         font-size: #{$n}vw;
