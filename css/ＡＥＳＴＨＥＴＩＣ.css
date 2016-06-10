@@ -8,14 +8,23 @@
 
 img {
   width: 100%;
-  height: 100%;
-  object-fit: contain; }
+  height: auto;
+  object-fit: contain;
+  padding: 1px; }
+
+/* 640px maximum width page container */
+.page {
+  max-width: 640px;
+  margin: 0 auto; }
 
 /* Page content sections */
 .section {
   margin: 1em;
   padding: 1em;
-  background: rgba(255, 255, 255, 0.9); }
+  background: #fff;
+  zoom: 1;
+  filter: alpha(opacity=97);
+  opacity: 0.975; }
 
 .section h1 {
   width: 100%;
@@ -44,6 +53,7 @@ img {
   margin-left: auto;
   margin-right: auto; }
 
+/* Limit maximum size of Helios. */
 img[src~="memes/roman-statue.png"] {
   max-height: 480px; }
 
@@ -52,17 +62,19 @@ img[src~="memes/roman-statue.png"] {
  * nest. */
 .row {
   width: 100%;
-  font-size: 0; }
+  font-size: 0;
+  text-align: center; }
 
+/* We remove 2% from the width because IE6 doesn't compute widths properly. */
 .column-third {
   display: inline-block;
   vertical-align: middle;
-  width: 33.33333%; }
+  width: 31.3333%; }
 
 .column-fifth {
   display: inline-block;
   vertical-align: middle;
-  width: 20%; }
+  width: 18%; }
 
 /* Programatically-generated array of squares from the Fibonacci sequence -- 
  * can be used to contruct a golden spiral. */
@@ -1895,7 +1907,8 @@ img[src~="memes/roman-statue.png"] {
   background-size: 50px; }
 
 body {
-  font-family: sans-serif; }
+  font-family: Times New Roman, serif;
+  font-size: 12px; }
 
 p {
   padding: 0.5em 0; }

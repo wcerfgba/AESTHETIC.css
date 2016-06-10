@@ -6,87 +6,74 @@
 <title>ＡＥＳＴＨＥＴＩＣ.css</title>
 </head>
 <body class="background-pink">
+<div class="page">
 <div class="section" id="splash">
   <h1 id="title">ＡＥＳＴＨＥＴＩＣ.css</h1>
-  <p style="text-align: center;">tagline</p>
 </div>
 <div class="section" id="grids">
   <h2>column-third / column-fifth</h2>
   <p>Embeddable percentage-defined inline-block grids for aesthetic composition.</p>
   <div class="row break-after">
-    <div class="column-third">
+    <!-- IE6 won't inline-block something that isn't already inline, so use spans -->
+    <span class="column-third">
       <img src="memes/roman-statue.png">
-    </div>
-    <div class="column-third">
+    </span>
+    <span class="column-third">
       <img src="memes/roman-statue.png">
-    </div>
-    <div class="column-third">
+    </span>
+    <span class="column-third">
       <img src="memes/roman-statue.png">
-    </div>
+    </span>
   </div>
   <div class="row break-after">
-    <div class="column-fifth">
+    <span class="column-fifth">
       <img src="memes/roman-statue.png">
-    </div>
-    <div class="column-fifth">
+    </span>
+    <span class="column-fifth">
       <img src="memes/roman-statue.png">
-    </div>
-    <div class="column-fifth">
+    </span>
+    <span class="column-fifth">
       <img src="memes/roman-statue.png">
-    </div>
-    <div class="column-fifth">
+    </span>
+    <span class="column-fifth">
       <img src="memes/roman-statue.png">
-    </div>
-    <div class="column-fifth">
+    </span>
+    <span class="column-fifth">
       <img src="memes/roman-statue.png">
-    </div>
+    </span>
   </div>
   <div class="row break-after">
-    <div class="column-third">
+    <span class="column-fifth">
+      <span class="column-third">
+        <img src="memes/roman-statue.png">
+      </span>
+      <span class="column-third">
+        <img src="memes/roman-statue.png">
+      </span>
+      <span class="column-third">
+        <img src="memes/roman-statue.png">
+      </span>
+    </span>
+    <span class="column-fifth">
       <img src="memes/roman-statue.png">
-    </div>
-    <div class="column-third">
-      <div class="column-fifth">
-        <img src="memes/roman-statue.png">
-      </div>
-      <div class="column-fifth">
-        <img src="memes/roman-statue.png">
-      </div>
-      <div class="column-fifth">
-        <div class="column-third">
-          <img src="memes/roman-statue.png">
-        </div>
-        <div class="column-third">
-          <div class="column-fifth">
-            <img src="memes/roman-statue.png">
-          </div>
-          <div class="column-fifth">
-            <img src="memes/roman-statue.png">
-          </div>
-          <div class="column-fifth">
-            <img src="memes/roman-statue.png">
-          </div>
-          <div class="column-fifth">
-            <img src="memes/roman-statue.png">
-          </div>
-          <div class="column-fifth">
-            <img src="memes/roman-statue.png">
-          </div>
-        </div>
-        <div class="column-third">
-          <img src="memes/roman-statue.png">
-        </div>
-      </div>
-      <div class="column-fifth">
-        <img src="memes/roman-statue.png">
-      </div>
-      <div class="column-fifth">
-        <img src="memes/roman-statue.png">
-      </div>
-    </div>
-    <div class="column-third">
+    </span>
+    <span class="column-fifth">
       <img src="memes/roman-statue.png">
-    </div>
+    </span>
+    <span class="column-fifth">
+      <img src="memes/roman-statue.png">
+    </span>
+    <span class="column-fifth">
+      <span class="column-third">
+        <img src="memes/roman-statue.png">
+      </span>
+      <span class="column-third">
+        <img src="memes/roman-statue.png">
+      </span>
+      <span class="column-third">
+        <img src="memes/roman-statue.png">
+      </span>
+    </span>
   </div>
 </div>
 <div class="section" id="fibonacci">
@@ -143,6 +130,34 @@
       <img src="memes/roman-statue.png">
     </div>
   </div>
+</div>
+<div class="section" id="backgrounds">
+  <h2>background</h2>
+  <p>Coloured tiles at 100x100 and classes for setting backgrounds.</p>
+  <div class="row">
+    <span class="column-fifth">
+      <img src="img/pink.png">
+    </span>
+    <span class="column-fifth">
+      <img src="img/blue.png">
+    </span>
+    <span class="column-fifth">
+      <img src="img/orange.png">
+    </span>
+    <span class="column-fifth">
+      <img src="img/yellow.png">
+    </span>
+    <span class="column-fifth">
+      <img src="img/light-yellow.png">
+    </span>
+  </div>
+</div>
+<div class="section" id="music">
+  <h2>macintosh plus</h2>
+  <p>Music to set the mood.</p>
+  <!-- If you want this to loop use IE6. -->
+  <embed src="memes/macintosh-plus.mp3" type="audio/mpeg" loop=true height="64"></embed>
+</div>
 </div>
 </body>
 </html>
